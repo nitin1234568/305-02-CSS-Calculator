@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(41, 41, 81);
+    
+}
+#Title
+{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    color:black;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: black;
+}
+#Title::first-letter
+{
+    font-size: 50px;
+    color: brown;
+}
+
+.container
+{
+    margin: 20px auto;
+    background-color:rgb(240, 109, 131);
+    width:50vw;
+    border-radius: 10px;
+    border: 5px solid black;
+    border-radius: 50px;
+    
+    
+}
+.Buttons
+{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.display
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.display
+{
+    background-color: black;
+    border-radius:20px;
+    margin:50px auto;
+    width: 80%;
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: White;
+
+
+
+}
+
+
+.display input
+{
+    
+    margin-top: 25px;
+    margin-bottom:20px;
+    width:90%;   
+    height:80px;
+    background-color: rgb(90, 193, 133);
+    border-radius: 20px;
+    font-size: 40px;
+    color:black;
+    outline: none;
+    border: 2px solid black;    
+}
+
+/* buttoncolors */
+#C
+{
+    background-color:rgb(113, 210, 113);
+    color:black;
+}
+#Numbers
+{
+    background-color: rgb(17, 17, 70);
+}
+#Symbols
+{
+    background-color:rgb(14, 112, 151);
+}
+button
+{
+    height:60px;
+    width: 100px;
+    margin: 20px;
+    font-size: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color:black;
+    color: white;
+}
+
+@media (max-width:1351px)
+{
+    .container
+    {
+        width:700px;
+    }
+    button
+    {
+        height:60px;
+        width:105px
+    }
+}
+@media (max-width:768px)
+{
+    .container
+    {
+        width:400px;
+        height:115vh;
+    }
+    button
+    {
+        height:60px;
+        width:60px;
+        margin:15px;
+        
+    }
+    .display
+    {
+        height:20vh;
+    }
+    
+}
